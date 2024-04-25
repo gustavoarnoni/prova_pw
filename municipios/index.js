@@ -22,7 +22,7 @@ function changePageTitle(title) {
        .catch((error) => console.error(error))
   
     try {
-      const data = await fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/estados/{uf}/municipios 
+      const data = await fetch(`https://servicodados.ibge.gov.br/api/v1/localidades/estados/{UF}/municipios
       ${name}`)
   
       const jsonData = await data.json()
