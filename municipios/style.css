@@ -1,0 +1,59 @@
+body,
+h1,
+h2,
+p,
+ul,
+ol,
+li,
+figure,
+table,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+  header h1 {
+    font-size: 35px;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+    ul.remove-bullet-points {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+}
+
+section ul {
+    font-size: 20px;
+}
+
+section ul a {
+    color: black;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
